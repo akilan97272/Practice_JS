@@ -1,0 +1,35 @@
+.greenLabel{
+	color: green;
+}
+
+.blueLabel{
+	color: blue;
+}
+
+.redLabel{
+	color: red;
+}
+
+button{
+	height: 150px;
+	width: 250px;
+	background-color: lavender;
+	cursor: pointer;
+	margin: 50px;
+	transition: background-color 0.25s;
+	border-radius: 15px
+}
+button:hover{
+	background-color:#734F96;
+	border-radius: 30px;
+}
+
+#countLabel{
+	font-size: 2em;
+}
+
+body{
+	font-size: 2em; 
+	text-align: center;
+	margin-top: 50px;
+}

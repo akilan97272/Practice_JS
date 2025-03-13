@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <form id="passwordForm">
+            <div class="form-group">
+                <label for="passwordLength">Password Length</label>
+                <input id="passwordLength" type="number" min="1" max="20" placeholder="Enter length">
+            </div>
+            <div class="form-group">
+                <label for="upperCase">Upper Case Characters</label>
+                <select id="upperCase">
+                    <option value="true">Needed</option>
+                    <option value="false">Not Needed</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="lowerCase">Lower Case Characters</label>
+                <select id="lowerCase">
+                    <option value="true">Needed</option>
+                    <option value="false">Not Needed</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="numbers">Numbers</label>
+                <select id="numbers">
+                    <option value="true">Needed</option>
+                    <option value="false">Not Needed</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="symbols">Symbols</label>
+                <select id="symbols">
+                    <option value="true">Needed</option>
+                    <option value="false">Not Needed</option>
+                </select>
+            </div>
+            <button id="submit" type="button">Generate</button>
+        </form>
+        <div id="output">
+            <p id="showPassword"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+  text-align: center;
+  font-size: 50px;
+  background-color: #f5f5f5;
+}
+input{
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
+  border-color: white;
+}
+button{
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: #FF5722;
+}
+img{
+  border-radius: 20px;
+}
+#rollResults{
+  margin: 25px;
+}
+#rollImages img{
+  width: 150px;
+  margin: 5px;
+}

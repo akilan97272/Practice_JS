@@ -1,0 +1,27 @@
+ body{
+ 	text-align: center;
+ 	font-size: 2em;
+ 	background-color: #3498DB;
+ }
+ 
+ #submit{
+ 	border-radius: 15px;
+ 	height: 100px;
+ 	width: 200px;
+ 	background-color: #9B59B6;
+ 	transition: background-color 0.99s;
+ }
+ 
+ #submit:hover{
+ 	background-color: #1ABC9C;
+ 	border-radius: 30px;
+ 	border-color: white;
+ }
+ 
+ #inputBox{
+ 	border-radius: 15px;
+ 	width: 100px;
+ 	height: 50px;
+ 	border-color: white;
+ }
+ 
